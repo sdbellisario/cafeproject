@@ -1,19 +1,25 @@
 {
   "name": "git-test",
   "version": "1.0.0",
-  "description": "Portfolio project website for the fictional vegan cafe La Gentilezza",
+  "description": "This is a website for the fictional campsites review site NuCamp.",
   "main": "main.html",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "lite": "lite-server",
     "start": "npm run lite",
-    "lite": "lite-server"
-  },
+    "test": "echo \"Error: no test specified\" && exit 1"
+ },
   "repository": {
     "type": "git"
   },
-  "author": "",
+  "author": "Sean Dufty",
   "license": "ISC",
   "devDependencies": {
     "lite-server": "^2.5.4"
+  },
+  "dependencies": {
+    "bootstrap": "^4.5.2",
+    "font-awesome": "^4.7.0",
+    "jquery": "^3.5.1",
+    "popper.js": "^1.16.1"
   }
 }
