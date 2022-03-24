@@ -1,0 +1,38 @@
+$color-primary: #E8EAE4;
+$color-secondary: #584728;
+$color-pale: #E6D6A1;
+$color-mid: #B68349;
+$color-dark: #4E1108;
+
+$header-font: 'Italiana', serif, "Times New Roman", Times, serif;
+
+
+body, #menuItems {
+    background-color: $color-primary;
+}
+
+#cafe {
+    font-family: $header-font;
+    font-size: 6em;
+}
+
+.navbar {
+    background-color: $color-pale;
+    text-align: center;
+    
+}
+
+#coffee, #drinks, #breakfast {
+    border: 4px solid;
+    border-color: #4E1108;
+    padding: 10px;
+    margin: 10px 20px 10px 20px;
+    text-align: center;
+    background-color: $color-pale;
+}
+
+.navitem {
+    padding: 3px;
+    margin: 3px;
+
+}

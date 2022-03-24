@@ -1,7 +1,7 @@
 {
   "name": "git-test",
   "version": "1.0.0",
-  "description": "This is a website for the fictional campsites review site NuCamp.",
+  "description": "This is a website for the La Gentilezza Cafe.",
   "main": "main.html",
   "scripts": {
     "lite": "lite-server",
