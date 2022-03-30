@@ -6,7 +6,6 @@ $color-dark: #4E1108;
 
 $header-font: 'Italiana', serif, "Times New Roman", Times, serif;
 
-
 body, #menuItems {
     background-color: $color-primary;
 }
@@ -14,6 +13,7 @@ body, #menuItems {
 #cafe {
     font-family: $header-font;
     font-size: 6em;
+    color: $color-dark
 }
 
 .navbar {
